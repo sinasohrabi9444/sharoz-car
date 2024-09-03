@@ -9,12 +9,12 @@ import Home from "@/components/Home/Home";
 import NavbarSection from "@/components/NavbarSection/NavbarSection";
 
 function MyApp({ Component, pageProps }) {
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 4000);
+    }, 3000);
 
     return () => clearTimeout(timer); // تمیز کردن تایمر
   }, []);
