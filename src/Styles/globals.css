@@ -1,0 +1,21 @@
+.background-slider{
+    width: 100%;
+    height: 100vh;
+   background-image: url('../../public/img/car2.JPEG');
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   display: flex;
+  flex-direction: column; 
+}
+
+::-webkit-scrollbar{
+  width: 19px;
+}
+
+::-webkit-scrollbar-thumb{
+  color: rgb(135, 127, 127);
+  background-color: rgb(29, 27, 27);
+  width: 10px;
+  border-radius: 10px;
+}
