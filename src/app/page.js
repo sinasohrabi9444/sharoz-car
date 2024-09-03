@@ -1,6 +1,6 @@
 // pages/_app.js
 "use client";
-import "../styles/globals.css"; // استایل‌های جهانی
+import "./globals.css"; // استایل‌های جهانی
 import "bootstrap/dist/css/bootstrap.min.css"; // استایل‌های Bootstrap
 import { Children, useEffect, useState } from "react";
 import Footer from "@/components/Footer/Footer"; // اگر نیاز دارید
