@@ -4,6 +4,7 @@ import React, { useEffect, useState } from "react";
 import "./Gallery-module.css";
 import NavbarSection from "../NavbarSection/NavbarSection";
 import { imgData } from "@/datas";
+import Footer from "../Footer/Footer";
 
 export default function Gallery() {
   const [imgDatas, setImgDatas] = useState(imgData);
@@ -44,6 +45,7 @@ export default function Gallery() {
           ))}
         </div>
       </div>
+      <Footer />
 
       {selectedImg && (
         <div className="show-image" onClick={closeImage}>

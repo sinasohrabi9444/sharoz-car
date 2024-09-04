@@ -50,7 +50,7 @@ export default function NavbarSection() {
               <li>
                 <Link href="/gallery">گالری ما</Link>
               </li>
-              <div className={"navbar-icons"}>
+              <div className={`   navbar-icons`}>
                 <FaInstagram className={"navbar-icon"} />
                 <FaFacebookF className={"navbar-icon"} />
                 <FaTelegramPlane className={"navbar-icon"} />

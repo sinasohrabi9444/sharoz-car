@@ -1,5 +1,6 @@
 // components/AboutCompany/AboutCompany.js
 import React from "react";
+
 import "./AboutCompany-module.css"; // فرض بر این است که استایل‌ها در فایل CSS جداگانه قرار دارند
 import { TiTick } from "react-icons/ti";
 import Link from "next/link";
@@ -8,16 +9,16 @@ import { LuMessagesSquare } from "react-icons/lu";
 
 export default function AboutCompany() {
   return (
-    <div className={"about-company-section"}>
+    <div className={"about-company-section "}>
       <div className={"wrapper"}>
         <div className={"full-about-section"}>
           <div className={"about-right-side"}>
-            <div className={"title-header"}>
-              <h4>درباره مجموعه ما</h4>
+            <div className={"title-header autoShow"}>
+              <h4 className="autoShow">درباره مجموعه ما</h4>
               <span className={"sub-line"}></span>
             </div>
-            <h3>
-              به مجموعه <span className="text-danger">Shahrooz Tuning</span> خوش آمدید
+            <h3 className="autoShow">
+              به مجموعه <span className="text-danger ">Shahrooz Tuning</span> خوش آمدید
             </h3>
             <p>
               خود این شرکت یک شرکت بسیار موفق است. الف از حقیقت شما باید کسانی

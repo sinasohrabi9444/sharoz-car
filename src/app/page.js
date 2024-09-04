@@ -7,7 +7,14 @@ import Footer from "@/components/Footer/Footer"; // اگر نیاز دارید
 import Loading from "@/components/Loading/Loading"; // اگر نیاز دارید
 import Home from "@/components/Home/Home";
 import NavbarSection from "@/components/NavbarSection/NavbarSection";
-import NextNProgress from "nextjs-progressbar";
+
+import {motion} from "framer-motion"
+
+
+
+
+
+
 function MyApp({ Component, pageProps }) {
   const [loading, setLoading] = useState(true);
 
@@ -25,15 +32,22 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <div className="App">
-      <NextNProgress
-        color="#29D" // رنگ نوار پیشرفت
-        startPosition={0.3} // موقعیت شروع نوار
-        stopDelayMs={200} // زمان تاخیر برای توقف نوار
-        height={3} // ارتفاع نوار
-        
-      />
-      <Home />
-      <Footer />
+     <motion.div
+       
+       initial="pageInitial"
+       animate="pageAnimate"
+       variants={{
+         pageInitial: {
+           opacity: 0,
+         },
+         pageAnimate: {
+           opacity: 1,
+         },
+       }}
+     >
+        <Home />
+        <Footer />
+        </motion.div>
     </div>
   );
 }

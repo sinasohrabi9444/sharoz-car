@@ -6,6 +6,7 @@ import { newsData } from '@/datas';
 import Link from 'next/link'; // استفاده از Link از Next.js
 import NavbarSection from '../NavbarSection/NavbarSection';
 import'./Services-module.css'; // فرض بر این است که استایل‌ها در فایل CSS جداگانه قرار دارند
+import Footer from '../Footer/Footer';
 
 export default function Services() {
   useEffect(() => {
@@ -41,6 +42,7 @@ export default function Services() {
           <h6 className={"btn-contact-us"}>تماس با ما</h6>
         </Link>
       </div>
+      <Footer />
     </>
   );
 }
