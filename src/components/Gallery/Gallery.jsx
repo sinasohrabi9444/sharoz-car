@@ -1,17 +1,17 @@
 // components/Gallery/Gallery.js
 "use client";
 import React, { useEffect, useState } from "react";
-import "./Gallery-module.css"; 
+import "./Gallery-module.css";
 import NavbarSection from "../NavbarSection/NavbarSection";
 import { imgData } from "@/datas";
-import Image from "next/image";
 
 export default function Gallery() {
-  const [imgdatas, setImgdatas] = useState(imgData);
+  const [imgDatas, setImgDatas] = useState(imgData);
   const [selectedImg, setSelectedImg] = useState(null);
+  const [loading, setLoading] = useState(true);
 
   const showImage = (img) => {
-    setSelectedImg(img);
+    setSelectedImg(img); 
   };
 
   const closeImage = () => {
@@ -32,14 +32,12 @@ export default function Gallery() {
 
       <div className="container-gallery">
         <div className="img-gallery">
-          {imgdatas.map((img) => (
-            <div key={img.id} className="img-item">
-              <Image
+          {imgDatas.map((img, index) => (
+            <div key={index} className="img-item">
+              <img
                 src={img.img}
-                width={250}
-                height={150}
                 alt="Gallery"
-                onClick={() => showImage(img)}
+                onClick={() => showImage(img)} 
                 className="gallery-thumbnail"
               />
             </div>
@@ -50,12 +48,10 @@ export default function Gallery() {
       {selectedImg && (
         <div className="show-image" onClick={closeImage}>
           <div className="pos-rel" onClick={(e) => e.stopPropagation()}>
-            <h2 className="close-window" onClick={closeImage}>X</h2>
-            <img
-              src={selectedImg.img}
-              alt="Full view"
-              className="full-image"
-            />
+            <h2 className="close-window" onClick={closeImage}>
+              X
+            </h2>
+            <img src={selectedImg.img} alt="Full view" className="full-image" /> 
             <h5 className="text-white mt-4 text-center">شهروز تیونینگ</h5>
           </div>
         </div>

@@ -89,63 +89,46 @@ const faq = [
 ];
 
 const imgData = [
-  { id: 1, img: `/img/images/car1.jpg` },
-  { id: 2, img: `/img/images/car2.jpg` },
+  { id: 1, img: `https://res.cloudinary.com/df2jqjw0f/image/upload/v1725448815/car1_take23.jpg` },
+  { id: 2, img: ` https://res.cloudinary.com/df2jqjw0f/image/upload/v1725448818/car2_czm8qo.jpg` },
 
-  { id: 4, img: `/img/images/car4.jpg` },
-  { id: 5, img: `/img/images/car5.jpg` },
-  { id: 6, img: `/img/images/car6.jpg` },
-  { id: 7, img: `/img/images/car7.jpg` },
-  { id: 8, img: `/img/images/car8.jpg` },
-  { id: 9, img: `/img/images/car9.jpg` },
-  { id: 10, img: `/img/images/car10.jpg` },
-  { id: 11, img: `/img/images/car11.jpg` },
-  { id: 12, img: `/img/images/car12.png` },
-  { id: 13, img: `/img/images/car13.jpg` },
-  { id: 14, img: `/img/images/car14.jpg` },
-  { id: 15, img: `/img/images/car15.jpg` },
-  { id: 16, img: `/img/images/car16.jpg` },
-  { id: 17, img: `/img/images/car17.jpg` },
-  { id: 18, img: `/img/images/car18.jpg` },
-  { id: 19, img: `/img/images/car19.jpg` },
-  { id: 20, img: `/img/images/car20.jpg` },
-  { id: 21, img: `/img/images/car21.jpg` },
-  { id: 22, img: `/img/images/car22.jpg` },
-  { id: 23, img: `/img/images/car23.jpg` },
-  { id: 24, img: `/img/images/car24.jpg` },
-  { id: 25, img: `/img/images/car25.jpg` },
-  { id: 26, img: `/img/images/car26.jpg` },
-  { id: 27, img: `/img/images/car27.jpg` },
-  { id: 28, img: `/img/images/car28.jpg` },
-  { id: 29, img: `/img/images/car29.jpg` },
+  { id: 4, img: `https://res.cloudinary.com/df2jqjw0f/image/upload/v1725448814/car4_dfdmqs.jpg` },
+  { id: 5, img: `https://res.cloudinary.com/df2jqjw0f/image/upload/v1725448815/car5_limsmd.jpg` },
+  { id: 6, img: `https://res.cloudinary.com/df2jqjw0f/image/upload/v1725448815/car6_tbtmfq.jpg` },
+  { id: 7, img: `https://res.cloudinary.com/df2jqjw0f/image/upload/v1725448816/car7_zvc1eu.jpg` },
+  { id: 8, img: `https://res.cloudinary.com/df2jqjw0f/image/upload/v1725448816/car8_essqzf.jpg` },
+  { id: 9, img: `https://res.cloudinary.com/df2jqjw0f/image/upload/v1725448817/car9_vz6d9l.jpg` },
+  { id: 10, img: `https://res.cloudinary.com/df2jqjw0f/image/upload/v1725448818/car10_ki39ds.jpg` },
+  { id: 11, img: `https://res.cloudinary.com/df2jqjw0f/image/upload/v1725448818/car11_sprldd.jpg` },
+  { id: 12, img: `https://res.cloudinary.com/df2jqjw0f/image/upload/v1725448821/car12_olkm0e.png` },
+ 
+  { id: 13, img: `https://res.cloudinary.com/df2jqjw0f/image/upload/v1725448820/car13_itlviv.jpg` },
+  { id: 14, img: `https://res.cloudinary.com/df2jqjw0f/image/upload/v1725448826/car14_kg0ezj.jpg` },
+  { id: 15, img: `https://res.cloudinary.com/df2jqjw0f/image/upload/v1725448819/car15_nmf8ab.jpg` },
+  { id: 16, img: `https://res.cloudinary.com/df2jqjw0f/image/upload/v1725448820/car16_w3y49w.jpg` },
+  { id: 17, img: `https://res.cloudinary.com/df2jqjw0f/image/upload/v1725448829/car17_tv118n.jpg` },
+  { id: 18, img: `https://res.cloudinary.com/df2jqjw0f/image/upload/v1725448827/car18_qkjbht.jpg` },
+  { id: 19, img: `https://res.cloudinary.com/df2jqjw0f/image/upload/v1725448823/car19_unmv9d.jpg` },
+  { id: 20, img: `https://res.cloudinary.com/df2jqjw0f/image/upload/v1725448829/car20_q2qgy3.jpg` },
+  { id: 21, img: `https://res.cloudinary.com/df2jqjw0f/image/upload/v1725448828/car21_jimbrq.jpg` },
+  { id: 22, img: `https://res.cloudinary.com/df2jqjw0f/image/upload/v1725448827/car22_d4tyey.jpg` },
+  { id: 23, img: `https://res.cloudinary.com/df2jqjw0f/image/upload/v1725448815/car23_tq3w3x.jpg` },
+  { id: 24, img: `https://res.cloudinary.com/df2jqjw0f/image/upload/v1725448816/car24_senac8.jpg` },
+  { id: 25, img: `https://res.cloudinary.com/df2jqjw0f/image/upload/v1725448817/car25_kdku0p.jpg` },
+  { id: 26, img: `https://res.cloudinary.com/df2jqjw0f/image/upload/v1725448817/car26_a7exzx.jpg` },
+  { id: 27, img: `https://res.cloudinary.com/df2jqjw0f/image/upload/v1725448817/car27_qyivec.jpg` },
+  { id: 28, img: `https://res.cloudinary.com/df2jqjw0f/image/upload/v1725448824/car28_r4esuq.jpg` },
+  { id: 29, img: `https://res.cloudinary.com/df2jqjw0f/image/upload/v1725448819/car29_ktuix9.jpg` },
 ];
 
 const imgSliderData = [
-  {
-    id: 1,
-    image: `/img/images/car1.jpg`,
-  },
-  {
-    id: 2,
-    image: `/img/images/car2.jpg`,
-  },
+  { id: 1, image: `https://res.cloudinary.com/df2jqjw0f/image/upload/v1725448815/car1_take23.jpg` },
+  { id: 2, image: ` https://res.cloudinary.com/df2jqjw0f/image/upload/v1725448818/car2_czm8qo.jpg` },
 
-  {
-    id: 4,
-    image: `/img/images/car4.jpg`,
-  },
-  {
-    id: 5,
-    image: `/img/images/car5.jpg`,
-  },
-  {
-    id: 6,
-    image: `/img/images/car6.jpg`,
-  },
-  {
-    id: 7,
-    image: `/img/images/car7.jpg`,
-  },
+  { id: 4, image: `https://res.cloudinary.com/df2jqjw0f/image/upload/v1725448814/car4_dfdmqs.jpg` },
+  { id: 5, image: `https://res.cloudinary.com/df2jqjw0f/image/upload/v1725448815/car5_limsmd.jpg` },
+  { id: 6, image: `https://res.cloudinary.com/df2jqjw0f/image/upload/v1725448815/car6_tbtmfq.jpg` },
+  { id: 7, image: `https://res.cloudinary.com/df2jqjw0f/image/upload/v1725448816/car7_zvc1eu.jpg` },
 ];
 
 export { newsData, dataTypoGrafi, faq, imgData, imgSliderData };
