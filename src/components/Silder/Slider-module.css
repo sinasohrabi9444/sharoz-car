@@ -55,7 +55,7 @@
 @media screen and (max-width:512px) {
   .swiper-slider img {
     width: auto;
-    height: 10rem;
+    height: 15rem;
     opacity: 1;
     border-radius: 30px;
   }

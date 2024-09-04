@@ -31,7 +31,7 @@ export default function About() {
           <div className="about-item">
             <div className="right-about-img">
               <img
-                src={`/img/img-video/newfolder/car1.jpg`}
+                src={`https://res.cloudinary.com/df2jqjw0f/image/upload/v1725455145/car1_aysh0w.jpg`}
                 alt="img about us"
               />
             </div>
@@ -62,7 +62,7 @@ export default function About() {
           <div className="about-item  mt-4">
             <div className="right-about-img">
               <img
-                src={`/img/img-video/newfolder/car3.jpg`}
+                src={`https://res.cloudinary.com/df2jqjw0f/image/upload/v1725455145/car3_lpqukp.jpg`}
                 alt="img about us"
               />
             </div>

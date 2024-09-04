@@ -7,6 +7,7 @@ import Result from "../Result/Result";
 import News from "../News/News";
 import GoodJob from "../GoodJob/GoodJob";
 import Slider from "../Silder/Slider";
+
 export default function Home() {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -15,6 +16,7 @@ export default function Home() {
   return (
     <>
       <div className="background-slider">
+        
         <NavbarSection />
       </div>
       <AboutCompany />
