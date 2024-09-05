@@ -9,6 +9,7 @@ import GoodJob from "../GoodJob/GoodJob";
 import Slider from "../Silder/Slider";
 import nprogress from "nprogress";
 import Router from "next/router";
+import Cover from "../Cover/Cover";
 export default function Home() {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -23,6 +24,7 @@ export default function Home() {
         <NavbarSection />
       </div>
       <AboutCompany />
+      <Cover />
       <WhatWeDo />
       <Result />
       <GoodJob />

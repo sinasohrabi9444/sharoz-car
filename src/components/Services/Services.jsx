@@ -1,12 +1,12 @@
 // components/Services/Services.js
-"use client"
+"use client";
 
-import React, { useEffect } from 'react';
-import { newsData } from '@/datas';
-import Link from 'next/link'; // استفاده از Link از Next.js
-import NavbarSection from '../NavbarSection/NavbarSection';
-import'./Services-module.css'; // فرض بر این است که استایل‌ها در فایل CSS جداگانه قرار دارند
-import Footer from '../Footer/Footer';
+import React, { useEffect } from "react";
+import { newsData } from "@/datas";
+import Link from "next/link"; // استفاده از Link از Next.js
+import NavbarSection from "../NavbarSection/NavbarSection";
+import "./Services-module.css"; // فرض بر این است که استایل‌ها در فایل CSS جداگانه قرار دارند
+import Footer from "../Footer/Footer";
 
 export default function Services() {
   useEffect(() => {
@@ -30,6 +30,8 @@ export default function Services() {
                 <h6>بیشتر بخوانید</h6>
               </Link>
             </div>
+
+            
           ))}
         </div>
       </div>
@@ -38,7 +40,7 @@ export default function Services() {
           <h2>به کمک نیاز دارید؟</h2>
           <span>با ما تماس بگیرید با شماره 09121111111</span>
         </div>
-        <Link className='a-link' href="/contact">
+        <Link className="a-link" href="/contact">
           <h6 className={"btn-contact-us"}>تماس با ما</h6>
         </Link>
       </div>

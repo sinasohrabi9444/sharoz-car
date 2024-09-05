@@ -131,4 +131,35 @@ const imgSliderData = [
   { id: 7, image: `https://res.cloudinary.com/df2jqjw0f/image/upload/v1725448816/car7_zvc1eu.jpg` },
 ];
 
-export { newsData, dataTypoGrafi, faq, imgData, imgSliderData };
+
+const   imgSliderCoverData = [
+  {
+  id:1,
+  src: '/img/cover/b1.jpg.webp',
+  desc:"کاور بدنه فیبر کربن"
+},
+
+{
+  id:2,
+  src: '/img/cover/b2.jpg.webp',
+  desc:"کاور بدنه  کالر شیفت"
+},
+{
+  id:3,
+  src: '/img/cover/b3.jpg.webp',
+  desc:"کاور بدنه مات"
+},
+{
+  id:4,
+  src: '/img/cover/b4.jpg.webp',
+  desc:"کاور بدنه براق"
+},
+{
+  id:5,
+  src: '/img/cover/b5.jpg.webp',
+  desc:"کاور بدنه کروم"
+},
+
+
+]
+export { newsData, dataTypoGrafi, faq, imgData, imgSliderData , imgSliderCoverData };
