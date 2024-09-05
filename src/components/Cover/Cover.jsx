@@ -26,7 +26,7 @@ export default function Cover() {
          </div>
         <div className="wrapper-cover ">
           {imgSliderData.map((img) => (
-            <div className="img-container-cover  ">
+            <div key={img.id} className="img-container-cover  ">
               <img src={img.src} alt="covers" />
               <div className="overlay-cover">
                 <div className="text-overlay">{img.desc}</div>
